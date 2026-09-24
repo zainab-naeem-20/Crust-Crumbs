@@ -40,6 +40,10 @@
 
 ---
 
+<p align="center">
+  <img src="https://hits.sh/github.com/zainab-naeem-20/Crust-and-Crumbs.svg?label=Views&color=ff69b4&logo=github" alt="Views"/>
+</p>
+
 <div align="center">
 
   Made with ❤️ for **Crust & Crumbs**
