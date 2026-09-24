@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crust & Crumbs - Freshly Baked Delights</title>
+
+    <link rel="icon" type="image/png" href="bakery.png" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="top">
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img src="bakery.png" width="30" height="30" alt="Logo" />
+          Crust & Crumbs
+        </div>
+
+        <div class="search">
+          <input type="text" placeholder="Search for Cakes, Pastries..." />
+        </div>
+
+        <div class="nav-list" id="menu">
+          <div class="dropdown">
+            <div class="dropdown-btn">
+              <i class="bx bx-map-alt comIcon"></i>
+              Deliver to Karachi, Pakistan
+              <i class="bx bx-chevron-down arrowIcon"></i>
+            </div>
+
+            <div class="dropdown-menu">
+              <a href="#">Islamabad</a>
+              <a href="#">Lahore</a>
+              <a href="#">Peshawar</a>
+              <a href="#">Faisalabad</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <div class="dropdown-btn">
+              <i class="bx bx-user comIcon"></i>
+              Login
+              <i class="bx bx-chevron-down arrowIcon"></i>
+            </div>
+
+            <div class="dropdown-menu">
+              <a href="#">Sign In</a>
+              <a href="#">Register</a>
+              <a href="#">My Account</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <div class="dropdown-btn">
+              <i class="bx bx-cart-alt comIcon"></i>
+              Cart
+              <i class="bx bx-chevron-down arrowIcon"></i>
+            </div>
+
+            <div class="dropdown-menu">
+              <a href="#">View Cart</a>
+              <a href="#">Check out</a>
+              <a href="#">Track Order</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-container">
+        <!-- hero section left -->
+        <div class="hero-left" data-aos="fade-right">
+          <div class="herobadge">🎉 Free Delivery on Orders Above $87</div>
+          <!-- Updated Hero Heading -->
+          <h1>Baked Fresh, <span>Loved Always</span></h1>
+          <p>
+            Indulge in artisanal cakes, heavenly pastries, and sweet treats crafted with passion. Delivered straight to your doorstep!
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">Order Online</button>
+            <button class="btn btn-outline">View Menu</button>
+          </div>
+
+          <div class="herostats">
+            <div class="herostat">
+              <h3>100M+</h3>
+              <span>Customers</span>
+            </div>
+            <div class="herostat">
+              <h3>200+</h3>
+              <span>Varieties</span>
+            </div>
+            <div class="herostat">
+              <h3>70+</h3>
+              <span>Years</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- hero section right -->
+        <div class="hero-right" data-aos="fade-left">
+          <div class="confetti">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <img src="hero-img.png" alt="Hero Cake" />
+          <div class="freshtag">
+            <i class="bx bxs-check-square"></i> 100% Fresh
+          </div>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <div>
+              <strong>4.9 Rating</strong><br />
+              <span>200+ Reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero features -->
+    <section class="herofeatures">
+      <div class="herofeature" data-aos="fade-left">
+        <div class="icon">
+          <i class="bx bxs-truck"></i>
+        </div>
+        <div>
+          <strong>Free Delivery</strong><br />
+          <span>On Orders over $59</span>
+        </div>
+      </div>
+
+      <div class="herofeature" data-aos="fade-up">
+        <div class="icon">
+          <i class="bx bx-alarm"></i>
+        </div>
+        <div>
+          <strong>Same Day Delivery</strong><br />
+          <span>Order today, get today</span>
+        </div>
+      </div>
+
+      <div class="herofeature" data-aos="fade-right">
+        <div class="icon">
+          <i class="bx bx-badge-check"></i>
+        </div>
+        <div>
+          <strong>100% Quality</strong><br />
+          <span>Premium Ingredients</span>
+        </div>
+      </div>
+
+      <div class="herofeature" data-aos="fade-down">
+        <div class="icon">
+          <i class="bx bx-heart"></i>
+        </div>
+        <div>
+          <strong>Made With Love</strong><br />
+          <span>Since 1956</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cakes Section -->
+    <section class="cake-section">
+      <img src="images/zigzag.svg" class="zigzag" alt="" />
+      <div class="container">
+        <div class="section-header" data-aos="zoom-in">
+          <div class="section-title">
+            <h2 class="heading"><span>✦</span> Cakes</h2>
+            <p class="subtitle">Explore our finest collection</p>
+          </div>
+          <button class="btn btn-primary">View All</button>
+        </div>
+
+        <!-- Card Grid with Unique Names & Details -->
+        <div class="cakes-grid" data-aos="fade-up">
+          <!-- card 1 -->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake1.jpg" alt="Velvet Rose Chocolate Cake" />
+            </div>
+            <div class="card-body">
+              <h4>Velvet Rose Chocolate</h4>
+              <p>Rich cocoa layers topped with silky red velvet frosting.</p>
+              <div class="card-footer">
+                <div class="price">$75</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake2.jpg" alt="Exotic Choco Overload" />
+              <div class="badge">Best Seller</div>
+            </div>
+            <div class="card-body">
+              <h4>Exotic Choco Overload</h4>
+              <p>Loaded with dark chocolate ganache and fudge shavings.</p>
+              <div class="card-footer">
+                <div class="price">$50</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake3.jpg" alt="Berry Vanilla Royale" />
+              <div class="badge">Best Seller</div>
+            </div>
+            <div class="card-body">
+              <h4>Berry Vanilla Royale</h4>
+              <p>Fluffy vanilla sponge layered with fresh forest berries.</p>
+              <div class="card-footer">
+                <div class="price">$65</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 4-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake4.jpg" alt="Caramel Crunch Supreme" />
+            </div>
+            <div class="card-body">
+              <h4>Caramel Crunch Supreme</h4>
+              <p>Golden caramel drizzle with crisp praline topping.</p>
+              <div class="card-footer">
+                <div class="price">$75</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 5-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake5.jpg" alt="Strawberry Bliss Delight" />
+            </div>
+            <div class="card-body">
+              <h4>Strawberry Bliss Delight</h4>
+              <p>Sweet strawberry cream topped with fresh ruby strawberries.</p>
+              <div class="card-footer">
+                <div class="price">$75</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 6-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake6.jpg" alt="Classic Belgian Truffle" />
+            </div>
+            <div class="card-body">
+              <h4>Classic Belgian Truffle</h4>
+              <p>Authentic Belgian chocolate sponge melt in every bite.</p>
+              <div class="card-footer">
+                <div class="price">$65</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 7-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake7.jpg" alt="Nutty Nutella Rocher" />
+            </div>
+            <div class="card-body">
+              <h4>Nutty Nutella Rocher</h4>
+              <p>Hazelnut cream, crunch wafers, and rich Nutella layer.</p>
+              <div class="card-footer">
+                <div class="price">$85</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 8-->
+          <div class="cake-card">
+            <div class="cake-img">
+              <img src="images/cake8.jpg" alt="Golden Mango Passion" />
+            </div>
+            <div class="card-body">
+              <h4>Golden Mango Passion</h4>
+              <p>Tropical mango mousse infused with passion fruit swirl.</p>
+              <div class="card-footer">
+                <div class="price">$95</div>
+                <button class="add-btn">ADD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- promotional card -->
+    <section class="promosection">
+      <div class="promo-wrapper">
+        <!-- left card -->
+        <div class="promo-card promo-left" data-aos="fade-right">
+          <div class="promo-content">
+            <small class="subtitle">Delicious</small>
+            <h2 class="heading">Super Sale</h2>
+            <p class="desc">Smooth & Creamy texture low in calories</p>
+            <br />
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+          <img src="images/fp1.png" class="promo-img" alt="Promo Item 1" />
+          <div class="price-badge">
+            $8
+            <span>Only</span>
+          </div>
+        </div>
+
+        <!-- Right card -->
+        <div class="promo-card promo-right" data-aos="fade-left">
+          <div class="promo-content">
+            <small class="subtitle">Free Delivery</small>
+            <h2 class="heading">Order Now</h2>
+            <p class="desc">Find your favorite at a cake shop</p>
+            <br />
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+          <img src="images/fp2.png" class="promo-img" alt="Promo Item 2" />
+          <div class="price-badge">
+            $5
+            <span>Only</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section">
+      <div class="aboutcontainer">
+        <div class="about-img" data-aos="fade-right">
+          <img src="images/about.jpg" alt="About Bakery" />
+          <div class="tag">Best Online Support</div>
+          <div class="tag">Crafted With Passion</div>
+          <div class="tag">Free Worldwide Shipping</div>
+        </div>
+        <div class="about-container" data-aos="fade-left">
+          <small class="subtitle">About Us</small>
+          <h2 class="heading">The Best Cake Shop In Your Town</h2>
+
+          <p class="desc">
+            We specialize in crafting beautiful delicious cakes that turn
+            ordinary moments into unforgettable memories. Dreaming of a classic
+            chocolate layer cake or a whimsical birthday design? We have it all.
+          </p>
+          <br />
+          <div class="stats">
+            <div class="stat">
+              <h3>100M+</h3>
+              <span>Total Customers</span>
+            </div>
+
+            <div class="stat">
+              <h3>38+</h3>
+              <span>World Outlets</span>
+            </div>
+
+            <div class="stat">
+              <h3>100%</h3>
+              <span>Customer Satisfaction</span>
+            </div>
+          </div>
+          <div class="feature-wrapper">
+            <div class="features">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="bx bx-check"></i>
+                </div>
+                The atmosphere is perfect
+              </div>
+
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="bx bx-check"></i>
+                </div>
+                We offer something unique
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="profile">
+              <img src="images/user-1.jpg" alt="Founder" />
+              <div>
+                <h4>Melanie Crites</h4>
+                <span>CEO & Founder</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary">More About Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- why choose us -->
+    <section class="why-section">
+      <h2 class="heading" data-aos="zoom-in">
+        <span>✦</span> Why Choose Crust & Crumbs
+      </h2>
+      <p class="subtitle" data-aos="zoom-in">Trusted By Millions</p>
+      <div class="whyfeature" data-aos="fade-up">
+        <div class="why-feature-box">
+          <div class="icon-circle">
+            <i class="bx bx-check-shield"></i>
+          </div>
+          <h3>Premium Quality</h3>
+          <p>Only the finest ingredients in every bite</p>
+        </div>
+
+        <div class="why-feature-box">
+          <div class="icon-circle">
+            <i class="bx bxs-star"></i>
+          </div>
+          <h3>Custom Designs</h3>
+          <p>Personalized Cakes for your special moments</p>
+        </div>
+
+        <div class="why-feature-box">
+          <div class="icon-circle">
+            <i class="bx bx-smile"></i>
+          </div>
+          <h3>100% Satisfaction</h3>
+          <p>Not Happy? We'll make it right</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- cake menu section -->
+    <section class="cakemenusection">
+      <div class="container">
+        <div class="menu-header" data-aos="zoom-in">
+          <span class="subtitle">Cake Menu</span>
+          <h2 class="heading">Choose And Order Now</h2>
+        </div>
+
+        <!-- Menu items with distinct flavor names & prices -->
+        <div class="menu-grid" data-aos="fade-up">
+          <div class="menu-card">
+            <div class="card-left">
+              <img src="images/cake1.jpg" alt="Confetti Party Cake" />
+              <div class="card-text">
+                <h3>Confetti Party Cake</h3>
+                <p>Cheerful vanilla sponge bursting with colorful sprinkles.</p>
+              </div>
+            </div>
+            <div class="price">$12.00</div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-left">
+              <img src="images/cake2.jpg" alt="Double Fudge Mousse" />
+              <div class="card-text">
+                <h3>Double Fudge Mousse</h3>
+                <p>Decadent double chocolate mousse layer with dark cocoa.</p>
+              </div>
+            </div>
+            <div class="price">$15.00</div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-left">
+              <img src="images/cake3.jpg" alt="Red Velvet Supreme" />
+              <div class="card-text">
+                <h3>Red Velvet Supreme</h3>
+                <p>Classic red velvet cake with whipped cream cheese icing.</p>
+              </div>
+            </div>
+            <div class="price">$14.00</div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-left">
+              <img src="images/cake4.jpg" alt="Salted Caramel Swirl" />
+              <div class="card-text">
+                <h3>Salted Caramel Swirl</h3>
+                <p>Rich butterscotch sponge laced with salted caramel drip.</p>
+              </div>
+            </div>
+            <div class="price">$13.50</div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-left">
+              <img src="images/cake5.jpg" alt="Fresh Berry Torte" />
+              <div class="card-text">
+                <h3>Fresh Berry Torte</h3>
+                <p>Light sponge filled with whipped cream and mixed berries.</p>
+              </div>
+            </div>
+            <div class="price">$16.00</div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-left">
+              <img src="images/cake6.jpg" alt="Hazelnut Cream Slice" />
+              <div class="card-text">
+                <h3>Hazelnut Cream Slice</h3>
+                <p>Roasted hazelnut crunch wrapped in smooth chocolate cream.</p>
+              </div>
+            </div>
+            <div class="price">$11.50</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="testimonial-section">
+      <div class="testimonialcontainer">
+        <div class="testimonial-left" data-aos="fade-right">
+          <span class="subtitle">Testimonials</span>
+          <h2 class="heading">
+            Genuine Feedback <br />
+            From Clients
+          </h2>
+          <p class="desc">
+            We specialize in crafting beautiful delicious cakes that turn
+            ordinary moments into unforgettable memories.
+          </p>
+          <br />
+          <button class="btn btn-primary">View All Testimonials</button>
+        </div>
+
+        <div class="testimonial-right" data-aos="fade-left">
+          <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slider-card">
+                  <img src="images/user-1.jpg" alt="Client" />
+                  <div class="slide-content">
+                    <div class="star">★★★★★</div>
+                    <h3>Sweet & Delicious!</h3>
+                    <p>
+                      The cake was absolutely fresh and beautiful. Made our celebration extra special!
+                    </p>
+                    <h4>Richard Frank</h4>
+                    <small>Businessman</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider-card">
+                  <img src="images/user-2.jpg" alt="Client" />
+                  <div class="slide-content">
+                    <div class="star">★★★★★</div>
+                    <h3>Best Bakery in Town!</h3>
+                    <p>
+                      Super quick delivery and authentic taste. Highly recommended for chocolate lovers!
+                    </p>
+                    <h4>Sarah Jenkins</h4>
+                    <small>Designer</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider-card">
+                  <img src="images/user-3.jpg" alt="Client" />
+                  <div class="slide-content">
+                    <div class="star">★★★★★</div>
+                    <h3>Highly Recommended</h3>
+                    <p>
+                      Their custom cakes are pure art. Loved every single bite!
+                    </p>
+                    <h4>David Miller</h4>
+                    <small>Software Engineer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter section -->
+    <section class="newsletter" data-aos="zoom-in">
+      <img src="images/n1.png" class="left-img" alt="" />
+      <img src="images/n2.png" class="right-img" alt="" />
+
+      <div class="newsletter-content">
+        <span class="subtitle" style="color: white">Newsletter</span>
+        <h2 class="heading" style="color: white">
+          Sign Up For Exclusive Deals <br />And Updates
+        </h2>
+        <br />
+        <form class="newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Enter Your Email..." />
+          <button class="btn btn-primary">Subscribe Now!</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="logo">
+            <img src="bakery.png" alt="" />Crust & Crumbs
+          </div>
+          <br />
+          <p>Spreading sweetness since 1956, Pakistan's Favorite Bakery Chain.</p>
+
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#"><i class="bx bx-chevron-right"></i>About Us</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Our Menu</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Store Location</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Become a Vendor</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Become a Franchise</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul class="footer-links">
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Contact Us</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Contact Feedback</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Professional Team</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Cake Menu</a></li>
+            <li><a href="#"><i class="bx bx-chevron-right"></i>Latest News & Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <div class="contact-item">
+            <i class="bx bxs-phone"></i>
+            <span>+92 110-250-36985</span>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxs-phone"></i>
+            <span>+92 110-582-42823</span>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxs-envelope"></i>
+            <span>support@crustandcrumbs.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Zainab Naeem / Crust & Crumbs. All rights reserved.</div>
+        <div>Developed by Zainab Naeem</div>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+
+      <a class="scroll-top" href="#top">
+        <i class="bx bx-chevron-up"></i>
+      </a>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Your JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
